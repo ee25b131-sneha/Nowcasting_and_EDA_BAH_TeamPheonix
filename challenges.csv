@@ -1,0 +1,5 @@
+challenge,impact,resolution
+HEL1OS cadence ~1.6 Hz not 1 Hz,"Naive rounding averages photon counts, suppresses flare spikes","Resample to 1 Hz: SUM counts, MEAN hardness"
+"259,041 duplicate rows in HEL1OS","Inflated data, double-count risk","Verified identical, dropped safely"
+SoLEXS gaps as absent rows not flags,Row-order merge misaligns data after each gap,Reindex onto synthetic grid + missing flags
+Empty resample bins read as 0 counts,Fake zeros bias background estimate low,Flag zero-reading bins as missing

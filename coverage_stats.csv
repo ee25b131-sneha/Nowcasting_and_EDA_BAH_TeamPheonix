@@ -1,0 +1,8 @@
+metric,value
+Total seconds,"10,108,800"
+Date range start,2026-03-01 00:00:00
+Date range end,2026-06-25 23:59:59
+Soft (SoLEXS) completeness %,87.34
+Hard (HEL1OS) completeness %,94.65
+Both-blind %,4.72
+Either-instrument coverage %,95.28
